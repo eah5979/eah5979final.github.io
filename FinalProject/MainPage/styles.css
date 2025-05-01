@@ -1,0 +1,158 @@
+.navbar{
+    width: 105%;
+  background-color: rgb(134, 185, 216);
+  overflow: auto; 
+}
+
+.navbar a{
+    color: white;
+    font-family: 'Lucida Sans';
+    float: left;
+     padding: 12px;
+    text-decoration: none;
+     font-size: 17px;
+    width: 20%; 
+     text-align: center; 
+     background-color: rgb(134, 185, 216);
+}
+
+a:hover{
+    background-color: rgb(137, 37, 22);
+}
+
+.img{
+    height: 100px;
+    width: 200px;
+} 
+
+img{
+    height: 700%;
+    width: 775%;
+}
+#hamptonspic{ 
+    height: 325px;
+    width: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#suffolkmap{
+        height: 325px;
+        width: 375px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+
+#Nassaupic{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Nassauinfo{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#Airshow{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+     width: 500px;
+     height: auto;
+     transform: rotate(5deg)
+}
+
+#NYC{ 
+    height: 350px;
+    width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#NYCinfo{
+    color: black;
+    text-align: center;
+}
+#NYCinfo1{
+    color:black;
+    text-align: left;
+} 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(134, 185, 216);
+  color: white;
+  text-align: center;
+}
+
+h3{ 
+    color:white
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.Suffolk{ 
+    color: black;
+    text-align: center;
+}
+
+#hamptonsinfo {
+    color: black;
+    text-align: center;
+}
+
+#Upstatepic{ 
+    height: 350px;
+    width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: grayscale(100%)
+}
+
+#Upstateinfo{ 
+    color: black;
+    text-align: center;
+}
+
+.NYCforminfo{ 
+    color:black
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+.space { margin-top: 150px; }
+
+#email-label{ 
+    top: 80px;
+}

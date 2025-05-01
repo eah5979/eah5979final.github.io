@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New York City </title>
+    <link rel="MainPage" href="../../MainPage/index.html">
+    <link rel="Stylesheet" href="../../MainPage/styles.css">
+    <link rel="Nassau" href="../Nassau/index.html" > 
+    <link rel="NYS" href="../ExploreNY/index.html" > 
+    <link rel="Suffolk" href="../Suffolk/index.html">
+    <script src="../../MainPage/java.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+              <a class="MainPage" href="../../MainPage/index.html"> Long Island</a>
+              <a class="Suffolk" href="../Suffolk/index.html">Suffolk</a>
+              <a class="Nassau" href="../Nassau/index.html">Nassau</a>
+              <a class="Explore NY" href="../ExploreNY/index.html">New York State</a>
+      </div>
+      <div class="Suffolk">
+        <h1> Welcome to New York City!</h1>
+        <h2> Home to the city that never sleeps!</h2>
+      </div>
+      <img id="NYC" src="nycskyline.jpg" alt="skyline">
+      <p id="NYCinfo">
+        Right next to Long Island and across the bridge, is the wonderful New York City! Undoubtedly, New York City is known for its grand skyline, 
+        food and of course Times Square. Starting from the center of Long Island, your'e about 45 miles from Manhattan, but travel time can range from 
+        1 hour to 2 and a half hours depending on traffic. 
+      </p>
+      <p id="NYCinfo1"> Things to do in NYC: </p>
+      <ul>
+        <li> See a broadway show </li>
+        <li> Try a world famous restraunt like the Stardust Diner or Carmine's </li>
+        <li> Visit Times Square </li>
+        <li> Visit SoHo and the West Village</li>
+      </ul>
+     </header> 
+  </body>
+</html>
+
+<div class="container mt-5">
+  <h2> Contact Us</h2>
+  <form class="needs-validation" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+      <div class="invalid-feedback">
+        Please enter your name.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" id="email-label" placeholder="name@example.com" required>
+      <div class="invalid-feedback">
+        Please enter a valid email address.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="subject" class="form-label">Subject</label>
+      <input type="text" class="form-control" id="subject" placeholder="Subject of your message" required>
+      <div class="invalid-feedback">
+        Subject is required.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+      <div class="invalid-feedback">
+        Please enter your message.
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="displayMessage()">Send Message</button>
+  </form>
+</div>
+</body>
+</script>
+
+<script>
+  function displayMessage() {
+    alert("Your form has been submitted!");
+  }
+</script>
+
+<div class="space"></div>
+
+<div class="footer">
+  <p>Thank you for your interest in Long Island and New York State!</p>
+</div>
+</html>
